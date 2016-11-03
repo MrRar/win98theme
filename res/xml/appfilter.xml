@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!--filters for any undefined icons-->
+		<iconback img1="link" />
+		<iconmask img1="link" />
+	<!--default apps-->
+		<!--clock-->
+			<item component="ComponentInfo{com.lenovo.deskclock/com.lenovo.clock.Clock}" drawable="clock" />
+			<item component="ComponentInfo{com.sec.android.app.clockpackage/com.sec.android.app.clockpackage.ClockPackage}" drawable="clock" />
+			<item component="ComponentInfo{com.motorola.blur.alarmclock/com.motorola.blur.alarmclock.AlarmClock}" drawable="clock" />
+			<item component="ComponentInfo{com.android.deskclock/com.android.deskclock.AlarmClock}" drawable="clock" />
+			<item component="ComponentInfo{com.android.alarmclock/com.android.alarmclock.AlarmClock}" drawable="clock" />
+			<item component="ComponentInfo{com.doubleTwist.alarmClock/com.doubleTwist.alarmClock.AlarmListActivity}" drawable="clock" />
+			<item component="ComponentInfo{com.zehro.android.clockr/com.zehro.android.clockr.ClockrPreferences}" drawable="clock" />
+			<item component="ComponentInfo{com.sonyericsson.organizer/com.sonyericsson.organizer.Organizer}" drawable="clock" />
+			<item component="ComponentInfo{com.sec.android.app.clockpackage/com.sec.android.app.clockpackage.alarm.Alarm}" drawable="clock" />
+			<item component="ComponentInfo{factory.widgets.SenseClockDark/factory.widgets.SenseClockDark.InfoActivity}" drawable="clock" />
+			<item component="ComponentInfo{com.lge.clock/com.lge.clock.Clock}" drawable="clock" />
+			<item component="ComponentInfo{com.lge.clock/com.lge.clock.AlarmClockActivity}" drawable="clock" />
+			<item component="ComponentInfo{com.android.deskclock/com.android.deskclock.DeskClock}" drawable="clock" />
+			<item component="ComponentInfo{com.htc.android.worldclock/com.htc.android.worldclock.WorldClockTabControl}" drawable="clock" />
+			<item component="ComponentInfo{com.doubleTwist.alarmClock/com.doubleTwist.alarmClock.AlarmListActivity}" drawable="clock" />
+			<item component="ComponentInfo{com.zehro.android.clockr/com.zehro.android.clockr.ClockrPreferences}" drawable="clock" />
+			<item component="ComponentInfo{com.sonyericsson.organizer/com.sonyericsson.organizer.Organizer}" drawable="clock" />
+			<item component="ComponentInfo{com.sec.android.app.clockpackage/com.sec.android.app.clockpackage.alarm.Alarm}" drawable="clock" />
+			<item component="ComponentInfo{com.sec.android.app.latin.launcher.alarmclock/com.sec.android.app.latin.launcher.alarmclock.Launcher}" drawable="clock" />
+			<item component="ComponentInfo{com.google.android.deskclock/com.android.deskclock.DeskClock}" drawable="clock" />
+			<item component="ComponentInfo{com.motorola.blur/com.motorola.blur.alarmclock.AlarmClock}" drawable="clock" />
+			<item component="ComponentInfo{com.lge.clock/com.lge.clock.DefaultAlarmClockActivity}" drawable="clock" />
+			<item component="ComponentInfo{com.asus.deskclock/com.asus.deskclock.DeskClock}" drawable="clock" />
+		<!--calendar-->
+			<item component=":CALENDAR" drawable="calendar" />
+			<item component="ComponentInfo{com.google.android.calendar/com.android.calendar.AllInOneActivity}" drawable="calendar"/>
+			<item component="ComponentInfo{com.android.calendar/com.android.calendar.LaunchActivity}" drawable="calendar"/>
+			<item component="ComponentInfo{com.android.calendar/com.android.calendar.CalendarTabActivity}" drawable="calendar"/>
+			<item component="ComponentInfo{com.android.calendar/com.android.calendar.AllInOneActivity}" drawable="calendar"/>
+		<!--browser-->
+			<item component=":BROWSER" drawable="browser" />
+			<item component="ComponentInfo{com.android.browser/com.android.browser.BrowserActivity}" drawable="browser" />
+			<item component="ComponentInfo{com.sec.android.app.sbrowser/com.sec.android.app.sbrowser.SBrowserMainActivity}" drawable="browser" />
+			<item component="ComponentInfo{com.android.browser/com.android.browser.BrowserLauncher}" drawable="browser" />
+			<item component="ComponentInfo{com.google.android.browser/com.android.browser.BrowserActivity}" drawable="browser" />
+			<item component="ComponentInfo{com.android.browser/com.android.browser.ui.BrowserActivity}" drawable="browser" />
+			<item component="ComponentInfo{com.android.browser/com.android.browser.WoActivity}" drawable="browser" />
+			<item component="ComponentInfo{com.android.browser/com.android.browser.WoHallActivity}" drawable="browser" />
+			<item component="ComponentInfo{com.android.browser/com.android.browser.Browser9130MainView}" drawable="browser" />
+			<item component="ComponentInfo{com.android.browser/com.android.browser.MonternetLauncherActivity}" drawable="browser" />
+			<item component="ComponentInfo{com.android.browser/com.android.browser.BrowserDownloadPage}" drawable="browser" />
+			<item component="ComponentInfo{com.android.browser/com.motorola.android.browser.ChinaMobileActivity}" drawable="browser" />
+			<item component="ComponentInfo{com.android.browser/com.android.browser.CombinedBookmarkHistoryActivity}" drawable="browser" />
+			<item component="ComponentInfo{com.android.browser/com.android.browser.BaiduShortcutActivity}" drawable="browser" />
+			<item component="ComponentInfo{com.android.browser/com.yulong.android.browser.BrowserStartPage}" drawable="browser" />
+			<item component="ComponentInfo{com.android.browser/com.android.browser.LoginBrowserActivity}" drawable="browser" />
+			<item component="ComponentInfo{com.android.browser/com.android.browser.BrowserActivity}" drawable="browser" />
+			<item component="ComponentInfo{com.lenovo.browser/com.lenovo.browser.BrowserActivity}" drawable="browser" />
+			<item component="ComponentInfo{com.htc.sense.browser/com.htc.sense.browser.BrowserActivity}" drawable="browser" />
+			<item component="ComponentInfo{com.asus.browser/com.android.browser.BrowserActivity}" drawable="browser" />
+		<!--contacts-->
+			<item component="ComponentInfo{com.android.contacts/com.app.contacts.PhoneBookTopMenuActivity}" drawable="contacts" />
+			<item component="ComponentInfo{com.android.contacts/com.android.contacts.activities.PeopleActivity}" drawable="contacts" />
+			<item component="ComponentInfo{com.android.contacts/com.android.contacts.activities.ContactsFrontDoor}" drawable="contacts" />
+			<item component="ComponentInfo{com.android.contacts/com.android.contacts.activities.ContactTabBrowserActivity}" drawable="contacts" />
+			<item component="ComponentInfo{com.android.htccontacts/com.android.htccontacts.ContactsTabActivity}" drawable="contacts" />
+			<item component="ComponentInfo{com.android.htccontacts/com.android.htccontacts.BrowseLayerCarouselActivity}" drawable="contacts" />
+			<item component="ComponentInfo{com.android.htccontacts/com.android.htccontacts.ContactSearchEntryActivity}" drawable="contacts" />
+			<item component="ComponentInfo{com.motorola.blur.contacts/com.motorola.blur.contacts.ViewIdentitiesFacetActivity}" drawable="contacts" />
+			<item component="ComponentInfo{com.motorola.blur.contacts/com.motorola.blur.contacts.ViewIdentitiesTabActivity}" drawable="contacts" />
+			<item component="ComponentInfo{com.sonyericsson.contacts/com.sonyericsson.contacts.ContactTabActivity}" drawable="contacts" />
+			<item component="ComponentInfo{com.sonyericsson.android.socialphonebook/com.sonyericsson.android.socialphonebook.SocialPhonebookActivity}" drawable="contacts" />
+			<item component="ComponentInfo{com.sonyericsson.android.socialphonebook/com.sonyericsson.android.socialphonebook.LaunchActivity}" drawable="contacts" />
+			<item component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsContactsEntryActivity}" drawable="contacts" />
+			<item component="ComponentInfo{com.android.contacts/com.android.contacts.activities.TwelveKeyDialer}" drawable="contacts" />
+			<item component="ComponentInfo{com.android.contacts/com.sec.android.app.contacts.DialerEntryActivity}" drawable="contacts" />
+			<item component="ComponentInfo{com.android.contacts/com.sec.android.app.contacts.ContactsEntryActivity}" drawable="contacts" />
+			<item component="ComponentInfo{com.android.contacts/com.sec.android.app.contacts.PhoneBookTopMenuActivity}" drawable="contacts" />
+			<item component="ComponentInfo{com.android.contacts/com.android.contacts.activities.PeopleActivity}" drawable="contacts" />
+			<item component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsCallLogEntryActivity}" drawable="contacts" />
+			<item component="ComponentInfo{com.android.contacts/com.android.contacts.activities.ContactsFrontDoor}" drawable="contacts" />
+			<item component="ComponentInfo{com.android.contacts/com.sec.android.app.contacts.PhoneBookSplitTopMenuActivity}" drawable="contacts" />
+			<item component="ComponentInfo{com.android.contacts/com.android.contacts.activities.ContactTabBrowserActivity}" drawable="contacts" />
+			<item component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsRecentCallsEntryActivity}" drawable="contacts" />
+			<item component="ComponentInfo{com.android.contacts/com.sec.android.app.contacts.RecntcallEntryActivity}" drawable="contacts" />
+			<item component="ComponentInfo{com.android.contacts/com.android.contacts.RecentCallsEntryActivity}" drawable="contacts" />
+			<item component="ComponentInfo{com.android.contacts/com.android.contacts.activities.PhoneFrontDoor}" drawable="contacts" />
+			<item component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsPhoneEntryActivity}" drawable="contacts" />
+			<item component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsEntryActivity}" drawable="contacts" />
+			<item component="ComponentInfo{com.android.contacts/com.android.contacts.tmo.LaunchCommunityActivity}" drawable="contacts" />
+			<item component="ComponentInfo{com.android.contacts/com.android.contacts.BbDialtactsMainFrameActivity}" drawable="contacts" />
+			<item component="ComponentInfo{com.android.contacts/com.android.contacts.ContactsActivity}" drawable="contacts" />
+			<item component="ComponentInfo{com.android.contacts/com.android.contacts.ContactsListActivity}" drawable="contacts" />
+			<item component="ComponentInfo{com.android.contacts/com.android.contacts.ContactHostActivity}" drawable="contacts" />
+			<item component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsRecentEntryActivity}" drawable="contacts" />
+			<item component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsCallListEntryActivity}" drawable="contacts" />
+			<item component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsRecentCallEntryActivity}" drawable="contacts" />
+			<item component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsCallsEntryActivity}" drawable="contacts" />
+			<item component="ComponentInfo{com.android.contacts/com.android.contacts.ContactsMainFromHomeActivity}" drawable="contacts" />
+			<item component="ComponentInfo{com.android.contacts/com.android.contacts.RecentCallLogLaunchActivity}" drawable="contacts" />
+			<item component="ComponentInfo{com.android.contacts/com.android.contacts.TransparentActivity}" drawable="contacts" />
+			<item component="ComponentInfo{com.android.contacts/com.android.contacts.SmartDialerListActivity}" drawable="contacts" />
+			<item component="ComponentInfo{com.android.contacts/com.android.contacts.BaiJiaXingActivity}" drawable="contacts" />
+			<item component="ComponentInfo{com.android.contacts/com.android.contacts.SmartDailerActivity}" drawable="contacts" />
+			<item component="ComponentInfo{com.android.contacts/com.android.contacts.ContactsListActivityLauncher}" drawable="contacts" />
+			<item component="ComponentInfo{com.android.contacts/com.android.contacts.ContactsListActivityEx}" drawable="contacts" />
+			<item component="ComponentInfo{com.android.htccontacts/com.android.htccontacts.BrowseLayerCarouselActivity}" drawable="contacts"/>
+		<!--dialer-->
+			<item component="ComponentInfo{com.android.contacts/com.android.contacts.activities.DialtactsActivity}" drawable="dialer"/>
+			<item component="ComponentInfo{com.android.contacts/com.android.contacts.activities.PhoneFrontDoor}" drawable="dialer"/>
+			<item component="ComponentInfo{com.android.contacts/com.android.contacts.activities.TwelveKeyDialer}" drawable="dialer"/>
+			<item component="ComponentInfo{com.android.contacts/com.android.contacts.BbDialtactsMainFrameActivity}" drawable="dialer"/>
+			<item component="ComponentInfo{com.android.contacts/com.android.contacts.CallDialtactsActivity}" drawable="dialer"/>
+			<item component="ComponentInfo{com.android.contacts/com.android.contacts.dialer.DialerPhoneActivity}" drawable="dialer"/>
+			<item component="ComponentInfo{com.android.contacts/com.android.contacts.DialerActivity}" drawable="dialer"/>
+			<item component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsActivity}" drawable="dialer"/>
+			<item component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsCallListEntryActivity}" drawable="dialer"/>
+			<item component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsCallLogActivity}" drawable="dialer"/>
+			<item component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsContactsEntryActivityForDialpad}" drawable="dialer"/>
+			<item component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsDialerEntryActivity}" drawable="dialer"/>
+			<item component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsEntryActivity}" drawable="dialer"/>
+			<item component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsPhoneEntryActivity}" drawable="dialer"/>
+			<item component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsRecentEntryActivity}" drawable="dialer"/>
+			<item component="ComponentInfo{com.android.contacts/com.android.contacts.PhoneDialtactsActivity}" drawable="dialer"/>
+			<item component="ComponentInfo{com.android.contacts/com.android.contacts.SmartDialerActivity}" drawable="dialer"/>
+			<item component="ComponentInfo{com.android.contacts/com.android.contacts.TwelveKeyDialer}" drawable="dialer"/>
+			<item component="ComponentInfo{com.android.contacts/com.android.dialer.DialtactsActivity}" drawable="dialer"/>
+			<item component="ComponentInfo{com.android.contacts/com.oppo.contacts.OppoDialtactsActivity}" drawable="dialer"/>
+			<item component="ComponentInfo{com.android.contacts/com.sec.android.app.contacts.DialerEntryActivity}" drawable="dialer"/>
+			<item component="ComponentInfo{com.android.contacts/com.sec.android.app.contacts.DialerEntryActivity}" drawable="dialer"/>
+			<item component="ComponentInfo{com.android.dialer/com.android.dialer.DialtactsActivity}" drawable="dialer"/>
+			<item component="ComponentInfo{com.android.htccontacts/com.android.htccontacts.ContactsSearch}" drawable="dialer"/>
+			<item component="ComponentInfo{com.android.htccontacts/com.android.htccontacts.ContactsTabActivity}" drawable="dialer"/>
+			<item component="ComponentInfo{com.android.htccontacts/com.android.htccontacts.DialerTabActivity}" drawable="dialer"/>
+			<item component="ComponentInfo{com.android.htcdialer/com.android.htcdialer.Dialer}" drawable="dialer"/>
+			<item component="ComponentInfo{com.android.phone/com.android.phone.DialerSClass}" drawable="dialer"/>
+			<item component="ComponentInfo{com.android.phone/com.android.phone.DialtactsCallLogActivity}" drawable="dialer"/>
+			<item component="ComponentInfo{com.android.phone/com.android.phone.DialtactsContactsEntryActivity}" drawable="dialer"/>
+			<item component="ComponentInfo{com.android.phone/com.android.phone.firewall.PhoneFireWall}" drawable="dialer"/>
+			<item component="ComponentInfo{com.android.phone/com.android.phone.LaunchCallInterface}" drawable="dialer"/>
+			<item component="ComponentInfo{com.android.phone/com.android.phone.PhoneApp}" drawable="dialer"/>
+			<item component="ComponentInfo{com.android.phone/com.android.phone.Settings}" drawable="dialer"/>
+			<item component="ComponentInfo{com.android.phone/com.android.phone.TwDialer}" drawable="dialer"/>
+			<item component="ComponentInfo{com.cootek.smartdialer/com.cootek.smartdialer.TDialer}" drawable="dialer"/>
+			<item component="ComponentInfo{com.google.android.dialer/com.google.android.dialer.extensions.GoogleDialtactsActivity}" drawable="dialer"/>
+			<item component="ComponentInfo{com.htc.contacts/com.htc.contacts.DialerTabActivity}" drawable="dialer"/>
+			<item component="ComponentInfo{com.huawei.android.dialer/com.huawei.android.dialer.TwelveKeyDialer}" drawable="dialer"/>
+			<item component="ComponentInfo{com.lenovo.ideafriend/com.lenovo.ideafriend.alias.DialtactsActivity}" drawable="dialer"/>
+			<item component="ComponentInfo{com.motorola.blur/com.motorola.blur.ViewIdentitiesFacetActivity}" drawable="dialer"/>
+			<item component="ComponentInfo{com.motorola.dialer/com.motorola.dialer.CallLogShortcut}" drawable="dialer"/>
+			<item component="ComponentInfo{com.motorola.dialer/com.motorola.dialer.DialtactsContactsEntryActivity}" drawable="dialer"/>
+			<item component="ComponentInfo{com.samsung.android.app.dialertab/com.samsung.android.app.dialertab.DialerTabActivity}" drawable="dialer"/>
+			<item component="ComponentInfo{com.samsung.dialer/com.samsung.dialer.SplashScreen}" drawable="dialer"/>
+			<item component="ComponentInfo{com.sec.android.app.dialertab/com.sec.android.app.dialertab.DialerTabActivity}" drawable="dialer"/>
+			<item component="ComponentInfo{com.sec.android.app.dialertab/com.sec.android.app.dialertab.DialerTabDialerActivity}" drawable="dialer"/>
+			<item component="ComponentInfo{com.simpler.dialer/com.simpler.ui.activities.DialerActivity}" drawable="dialer"/>
+			<item component="ComponentInfo{com.sonyericsson.android.socialphonebook/com.sonyericsson.android.socialphonebook.DialerEntryActivity}" drawable="dialer"/>
+			<item component="ComponentInfo{com.asus.contacts/com.android.contacts.activities.DialtactsActivity}" drawable="dialer" />
+		<!--SMS-->
+			<item component=":SMS" drawable="sms" />
+			<item component="ComponentInfo{com.android.mms/com.android.mms.ui.ConversationList}" drawable="sms" />
+			<item component="ComponentInfo{com.android.mms/com.android.mms.MainUISelection}" drawable="sms" />
+			<item component="ComponentInfo{com.android.mms/com.android.mms.MultipleActivitiesMain}" drawable="sms" />
+			<item component="ComponentInfo{com.android.mms/com.android.mms.ui.ConversationComposer}" drawable="sms" />
+			<item component="ComponentInfo{com.android.mms/com.android.mms.ui.MainLayerTabSwitchActivity}" drawable="sms" />
+			<item component="ComponentInfo{com.android.mms/com.android.mms.ui.MessageTabActivity}" drawable="sms" />
+			<item component="ComponentInfo{com.android.mms/com.android.mms.ui.MmsTabActivity}" drawable="sms" />
+			<item component="ComponentInfo{com.android.mms/com.android.mms.ui.ModeActivity}" drawable="sms" />
+			<item component="ComponentInfo{com.android.mms/com.android.mms.ui.UiController}" drawable="sms" />
+			<item component="ComponentInfo{com.android.mms/com.android.mms.ui.ViewControllerActivity}" drawable="sms" />
+			<item component="ComponentInfo{com.android.mms/com.android.mms.ui.VissageActivity}" drawable="sms" />
+			<item component="ComponentInfo{com.mms.ics.ext/com.mms.ics.ext.ui.ConversationList}" drawable="sms" />
+			<item component="ComponentInfo{com.motorola.blur.conversations/com.motorola.blur.conversations.ui.ConversationList}" drawable="sms" />
+			<item component="ComponentInfo{com.motorola.messaging/com.motorola.messaging.activity.ConversationListActivity}" drawable="sms" />
+			<item component="ComponentInfo{com.sec.mms/com.sec.mms.Mms}" drawable="sms" />
+			<item component="ComponentInfo{com.sonyericsson.conversations/com.sonyericsson.conversations.ui.ConversationListActivity}" drawable="sms" />
+		<!--calculator-->
+			<item component="ComponentInfo{com.android.calculator2/com.android.calculator2.Calculator}" drawable="calculator"/>
+			<item component="ComponentInfo{com.android.calculator2/com.android.calculator2.Calculator-Dark}" drawable="calculator"/>
+			<item component="ComponentInfo{com.android.calculator2/com.android.calculator2.AsxCalculator}" drawable="calculator"/>
+			<item component="ComponentInfo{com.android.calculator2/com.android.calculator2.Calculator-Light}" drawable="calculator"/>
+			<item component="ComponentInfo{com.android.calculator2/com.android.calculator2.CalculatorActivity}" drawable="calculator"/>
+			<item component="ComponentInfo{com.android.calculator2/com.android.calculator2.AdvancedCalulator}" drawable="calculator"/>
+			<item component="ComponentInfo{com.android.calculator2/com.android.calculator2.Calculator2}" drawable="calculator"/>
+			<item component="ComponentInfo{com.android.calculator2/com.android.calculator2.Ca}" drawable="calculator"/>
+			<item component="ComponentInfo{com.sec.android.app.popupcalculator/com.sec.android.app.popupcalculator.Calculator}" drawable="calculator"/>
+		<!--all apps-->
+			<item component=":LAUNCHER_ACTION_APP_DRAWER" drawable="all_apps" />
+			<item component=":LAUNCHER_ACTION_APP_DRAWER_NIGHT" drawable="all_apps" />
+		<!--downloads-->
+			<item component="ComponentInfo{com.android.providers.downloads.ui/com.android.providers.downloads.ui.DownloadList}" drawable="downloads" />
+			<item component="ComponentInfo{com.android.providers.downloads.ui/com.android.providers.downloads.ui.DownloadsListTab}" drawable="downloads" />
+			<item component="ComponentInfo{com.android.providers.downloads.ui/com.android.providers.downloads.ui.DownloadList}" drawable="downloads" />
+			<item component="ComponentInfo{com.android.providers.downloads.ui/com.android.providers.downloads.ui.GnDownloadTabActivity}" drawable="downloads" />
+			<item component="ComponentInfo{com.google.android.youtube/net.ogmods.youtube.OGDownloadManager1}" drawable="downloads" />
+			<item component="ComponentInfo{com.hwkrbbt.downloadall/com.hwkrbbt.downloadall.MainActivity}" drawable="downloads" />
+		<!--email-->
+			<item component="ComponentInfo{com.aliyun.mobile.email/com.aliyun.mobile.email.activity.Email}" drawable="email" />
+			<item component="ComponentInfo{com.amazon.email/com.amazon.email.activity.Accounts}" drawable="email" />
+			<item component="ComponentInfo{com.android.email/com.android.email.activity.EmailActivity}" drawable="email" />
+			<item component="ComponentInfo{com.android.email/com.android.email.activity.Welcome}" drawable="email" />
+			<item component="ComponentInfo{com.aplixcorp.email/com.aplixcorp.email.activity.Welcome}" drawable="email" />
+			<item component="ComponentInfo{com.asus.email/com.android.email.activity.Welcome}" drawable="email" />
+			<item component="ComponentInfo{com.asus.handset.email/com.asus.handset.email.AsusWelcome}" drawable="email" />
+			<item component="ComponentInfo{com.bn.nook.email/com.bn.nook.email.activity.Welcome}" drawable="email" />
+			<item component="ComponentInfo{com.google.android.email/com.android.email.activity.Welcome}" drawable="email" />
+			<item component="ComponentInfo{com.htc.android.mail/com.htc.android.mail.MailListTab}" drawable="email" />
+			<item component="ComponentInfo{com.htc.android.mail/com.htc.android.mail.MultipleActivitiesMain}" drawable="email" />
+			<item component="ComponentInfo{com.htc.sense.mms/com.htc.sense.mms.ui.VoiceMailTabActivity}" drawable="email" />
+			<item component="ComponentInfo{com.lenovo.email/com.android.email.activity.Welcome}" drawable="email" />
+			<item component="ComponentInfo{com.lgcns.mobileoffice.email/com.lgcns.mobileoffice.email.EmailListActivity}" drawable="email" />
+			<item component="ComponentInfo{com.lge.email/com.lge.email.activity.AccountList}" drawable="email" />
+			<item component="ComponentInfo{com.lge.email/com.lge.email.activity.ActEmailStarter}" drawable="email" />
+			<item component="ComponentInfo{com.lge.email/com.lge.email.activity.ActMain}" drawable="email" />
+			<item component="ComponentInfo{com.lge.email/com.lge.email.ui.setupwizard.Welcome}" drawable="email" />
+			<item component="ComponentInfo{com.motorola.blur.email/com.motorola.blur.email.mailbox.MailListActivity}" drawable="email" />
+			<item component="ComponentInfo{com.motorola.blur.email/com.motorola.blur.email.mailbox.ViewFolderActivity}" drawable="email" />
+			<item component="ComponentInfo{com.motorola.email/com.android.email.activity.Welcome}" drawable="email" />
+			<item component="ComponentInfo{com.motorola.motoemail/com.android.email.activity.Welcome}" drawable="email" />
+			<item component="ComponentInfo{com.mwebster.iemail/com.mwebster.iemail.activity.Welcome}" drawable="email" />
+			<item component="ComponentInfo{com.samsung.vvmapp/com.samsung.vvmapp.VVMApplication}" drawable="email" />
+			<item component="ComponentInfo{com.skt.pe.activity.email/com.sk.pe.group.email.activity.EmailReceiveActivity}" drawable="email" />
+			<item component="ComponentInfo{com.sonyericsson.email/com.sonyericsson.email.ui.Main}" drawable="email" />
+			<item component="ComponentInfo{de.web.mobile.android.mail/com.fsck.k9.activity.Accounts}" drawable="email" />
+			<item component="ComponentInfo{luck.of.wise.emailpicker.pro/luck.of.wise.emailpicker.pro.EmailPickerActivity}" drawable="email" />
+		<!--file manager-->
+			<item component="ComponentInfo{com.sec.android.app.myfiles/com.sec.android.app.myfiles.MainActivity}" drawable="file_manager" />
+			<item component="ComponentInfo{com.sec.android.app.myfiles/com.sec.android.app.myfiles.MainActivity}" drawable="file_manager" />
+			<item component="ComponentInfo{com.motorola.filemanager/com.motorola.filemanager.FileManager}" drawable="file_manager" />
+			<item component="ComponentInfo{com.sec.android.app.myfiles/com.sec.android.app.myfiles.Myfiles}" drawable="file_manager" />
+			<item component="ComponentInfo{com.sec.android.app.latin.launcher.myfiles/com.sec.android.app.latin.launcher.myfiles.Launcher}" drawable="file_manager" />
+			<item component="ComponentInfo{gn.com.android.filemanager/gn.com.android.filemanager.MyTabActivity}" drawable="file_manager" />
+			<item component="ComponentInfo{com.pineone.android.myfiles/com.pineone.android.myfiles.MainActivity}" drawable="file_manager" />
+			<item component="ComponentInfo{com.android.filebrowser/com.android.filebrowser.MyFile}" drawable="file_manager" />
+			<item component="ComponentInfo{com.sec.android.app.myfiles/com.sec.android.app.myfiles.common.MainActivity}" drawable="file_manager" />
+			<item component="ComponentInfo{com.piggy.myfiles/com.piggy.myfiles.MyFiles}" drawable="file_manager" />
+			<item component="ComponentInfo{fanta91.myfilemanager/fanta91.myfilemanager.MyfilemanagerActivity}" drawable="file_manager" />
+			<item component="ComponentInfo{com.vj.filemanager/com.vj.filemanager.SampleActivity}" drawable="file_manager" />
+			<item component="ComponentInfo{com.pekall.FileManager/com.pekall.FileManager.MyFavorite}" drawable="file_manager" />
+			<item component="ComponentInfo{tomkuo139.com.fileBrowser.free/tomkuo139.com.fileBrowser.free.startProgram}" drawable="file_manager" />
+			<item component="ComponentInfo{com.galalxy.myfile/com.galaxy.myfile.FileManager}" drawable="file_manager" />
+			<item component="ComponentInfo{com.android.filemanager/com.android.filemanager.MyFile}" drawable="file_manager" />
+			<item component="ComponentInfo{com.vj.filemanager/com.vj.filemanager.FileManagerActivity}" drawable="file_manager" />
+			<item component="ComponentInfo{com.m7.chateau.MyFiles/com.m7.chateau.MyFiles.MyFilesActivity}" drawable="file_manager" />
+			<item component="ComponentInfo{com.m7.juke.MyFiles/com.m7.juke.MyFiles.MyFilesActivity}" drawable="file_manager" />
+			<item component="ComponentInfo{myFile.com.cn/myFile.com.cn.Myfile}" drawable="file_manager" />
+			<item component="ComponentInfo{com.xiaoqi.myfile/com.xiaoqi.myfile.local.FileManager}" drawable="file_manager" />
+			<item component="ComponentInfo{my.filemanager/my.filemanager.PersonFileManager}" drawable="file_manager" />
+			<item component="ComponentInfo{com.lenovo.FileBrowser/com.lenovo.FileBrowser.activities.FileBrowserMain}" drawable="file_manager" />
+			<item component="ComponentInfo{com.sec.android.app.myfiles/com.sec.android.app.myfiles.MainActivity}" drawable="file_manager" />
+			<item component="ComponentInfo{com.mediatek.filemanager/com.mediatek.filemanager.FileManagerOperationActivity}" drawable="file_manager" />
+			<item component="ComponentInfo{com.htc.filemanager/com.htc.filemanager.FileManagerActivity}" drawable="file_manager" />
+			<item component="ComponentInfo{com.rhmsoft.fm/com.rhmsoft.fm.FileManager}" drawable="file_manager" />
+			<item component="ComponentInfo{com.lge.filemanager/com.lge.filemanager.view.LaunchActivity}" drawable="file_manager" />
+			<item component="ComponentInfo{com.gionee.filemanager/com.gionee.filemanager.FileExplorerTabActivity}" drawable="file_manager" />
+			<item component="ComponentInfo{com.android.fileexplorer/com.android.fileexplorer.FileExplorerTabActivity}" drawable="file_manager" />
+			<item component="ComponentInfo{com.asus.filemanager/com.asus.filemanager.activity.FileManagerActivity}" drawable="file_manager" />
+			<item component="ComponentInfo{com.mediatek.filemanager/com.mediatek.filemanager.FileManagerOperationActivity}" drawable="file_manager" />
+		<!--camera-->
+			<item component="ComponentInfo{com.android.camera/com.android.camera.ArcCamera}" drawable="camera" />
+			<item component="ComponentInfo{com.android.camera/com.android.camera.CamcorderEntry}" drawable="camera" />
+			<item component="ComponentInfo{com.android.camera/com.android.camera.CameraEntry}" drawable="camera" />
+			<item component="ComponentInfo{com.android.camera/com.android.camera.CameraLauncher}" drawable="camera" />
+			<item component="ComponentInfo{com.android.camera/com.android.camera.Camera}" drawable="camera" />
+			<item component="ComponentInfo{com.android.camera/com.android.camera.IfHdmi}" drawable="camera" />
+			<item component="ComponentInfo{com.android.camera2/com.android.camera.CameraActivity}" drawable="camera" />
+			<item component="ComponentInfo{com.android.camera2/com.android.camera.CameraLauncher}" drawable="camera" />
+			<item component="ComponentInfo{com.android.gallery3d/com.android.camera.CameraLauncher}" drawable="camera" />
+			<item component="ComponentInfo{com.android.gallery3d/com.android.hwcamera}" drawable="camera" />
+			<item component="ComponentInfo{com.android.hwcamera/com.android.hwcamera.Camera}" drawable="camera" />
+			<item component="ComponentInfo{com.asus.camera/com.asus.camera.CameraApp}" drawable="camera" />
+			<item component="ComponentInfo{com.cyngn.cameranext/com.android.camera.CameraLauncher}" drawable="camera" />
+			<item component="ComponentInfo{com.cyngn.cameranextmod2/com.android.camera.CameraLauncher}" drawable="camera"/>
+			<item component="ComponentInfo{com.google.android.camera/com.android.camera.Camera}" drawable="camera" />
+			<item component="ComponentInfo{com.google.android.gallery3d/com.android.camera.CameraLauncher}" drawable="camera" />
+			<item component="ComponentInfo{com.google.android.GoogleCamera/com.android.camera.CameraAcvtivity}" drawable="camera"/>
+			<item component="ComponentInfo{com.google.android.GoogleCamera/com.android.camera.CameraLauncher}" drawable="camera"/>
+			<item component="ComponentInfo{com.htc.camera/com.htc.camera.CameraEntry}" drawable="camera" />
+			<item component="ComponentInfo{com.huawei.camera/com.huawei.camera}" drawable="camera" />
+			<item component="ComponentInfo{com.jrdcom.android.gallery3d/com.android.jrdcamera.CameraLauncher}" drawable="camera" />
+			<item component="ComponentInfo{com.lenovo.scg/com.lenovo.scg.camera.CameraLauncher}" drawable="camera" />
+			<item component="ComponentInfo{com.lge.camera/com.lge.camera.CamcorderLoading}" drawable="camera" />
+			<item component="ComponentInfo{com.lge.camera/com.lge.camera.CameraAppLauncher}" drawable="camera" />
+			<item component="ComponentInfo{com.lge.camera/com.lge.camera.CameraApp}" drawable="camera" />
+			<item component="ComponentInfo{com.lge.camera/com.lge.camera.CameraLoading}" drawable="camera" />
+			<item component="ComponentInfo{com.lge.camera/com.lge.camera.CameraMain}" drawable="camera" />
+			<item component="ComponentInfo{com.lge.camera/com.lge.camera.CamLoading}" drawable="camera" />
+			<item component="ComponentInfo{com.mediatek.camera/com.mediatek.camera.CameraIndex}" drawable="camera" />
+			<item component="ComponentInfo{com.mediatek.camera/com.mediatek.camera.Camera}" drawable="camera" />
+			<item component="ComponentInfo{com.mediatek.camera/com.mediatek.camera.LaunchCamera}" drawable="camera" />
+			<item component="ComponentInfo{com.mediatek.camera/com.mediatek.camera.VideoCamera}" drawable="camera" />
+			<item component="ComponentInfo{com.miui.camera/com.miui.camera.Camera}" drawable="camera" />
+			<item component="ComponentInfo{com.miui.camera1/com.miui.camera1.Camera}" drawable="camera" />
+			<item component="ComponentInfo{com.moblynx.cameraicsplus/com.moblynx.cameraics.Camera}" drawable="camera"/>
+			<item component="ComponentInfo{com.modaco.cameralauncher/com.modaco.cameralauncherActivity}" drawable="camera" />
+			<item component="ComponentInfo{com.motorola.Camera/com.motorola.Camera.Camera}" drawable="camera" />
+			<item component="ComponentInfo{com.motorola.camera/com.motorola.camera.Camera}" drawable="camera" />
+			<item component="ComponentInfo{com.oppo.camera/com.oppo.camera.activity.CameraActivity}" drawable="camera" />
+			<item component="ComponentInfo{com.oppo.camera/com.oppo.camera.CameraLauncher}" drawable="camera" />
+			<item component="ComponentInfo{com.oppo.camera/com.oppo.camera.Camera}" drawable="camera" />
+			<item component="ComponentInfo{com.oppo.camera/com.oppo.camera.OppoCamera}" drawable="camera" />
+			<item component="ComponentInfo{com.radcam.camera/com.android.camera.CameraLauncher}" drawable="camera" />
+			<item component="ComponentInfo{com.samsung.camera/com.samsung.camera.Camera}" drawable="camera" />
+			<item component="ComponentInfo{com.sec.android.app.camera/com.sec.android.app.camera.Camera}" drawable="camera" />
+			<item component="ComponentInfo{com.sec.android.app.latin.launcher.camera/com.sec.android.app.latin.launcher.camera.Launcher}" drawable="camera" />
+			<item component="ComponentInfo{com.sonyericsson.android.camera/com.sonyericsson.android.camera.CameraActivity}" drawable="camera" />
+			<item component="ComponentInfo{com.sonyericsson.camera/com.sonyericsson.camera.photo.Camera}" drawable="camera" />
+			<item component="ComponentInfo{com.vertu.camera/com.vertu.camera.CameraLauncher}" drawable="camera" />
+			<item component="ComponentInfo{zte.com.cn.camera/zte.com.cn.camera.Camera}" drawable="camera" />
+		<!--gallery-->
+			<item component="ComponentInfo{com.android.gallery/com.android.camera.GalleryPicker}" drawable="gallery" />
+			<item component="ComponentInfo{com.android.gallery/com.android.gallery.ui.MainActivity}" drawable="gallery" />
+			<item component="ComponentInfo{com.android.gallery3d/com.android.gallery3d.app.Gallery}" drawable="gallery" />
+			<item component="ComponentInfo{com.android.sec.gallery3d/com.android.sec.gallery3d.app.Gallery}" drawable="gallery" />
+			<item component="ComponentInfo{com.cooliris.media/com.cooliris.media.Gallery}" drawable="gallery" />
+			<item component="ComponentInfo{com.cooliris.media/com.cooliris.media.Gallery}" drawable="gallery" />
+			<item component="ComponentInfo{com.cooliris.media/com.cooliris.media.GalleryForVideo}" drawable="gallery" />
+			<item component="ComponentInfo{com.cooliris.media/com.cooliris.media.VideoStubActivity}" drawable="gallery" />
+			<item component="ComponentInfo{com.cooliris.media/com.tapntap.photos.PhotosActivity}" drawable="gallery" />
+			<item component="ComponentInfo{com.cooliris.media/com.tapntap.videos.VideosActivity}" drawable="gallery" />
+			<item component="ComponentInfo{com.google.android.gallery3d/com.cooliris.media.Gallery}" drawable="gallery" />
+			<item component="ComponentInfo{com.google.android.gallery3d/com.android.gallery3d.app.Gallery}" drawable="gallery" />
+			<item component="ComponentInfo{com.htc.album/com.htc.album.AlbumTabSwitchActivity}" drawable="gallery" />
+			<item component="ComponentInfo{com.htc.album/com.htc.album.AlbumMain.ActivityMainDropList}" drawable="gallery" />
+			<item component="ComponentInfo{com.motorola.blurgallery/com.motorola.cgallery.Dashboard}" drawable="gallery" />
+			<item component="ComponentInfo{com.motorola.gallery/com.motorola.gallery.LaunchActivity}" drawable="gallery" />
+			<item component="ComponentInfo{com.motorola.gallery/com.motorola.gallery.TopScreen}" drawable="gallery" />
+			<item component="ComponentInfo{com.motorola.motgallery/com.motorola.cgallery.Dashboard}" drawable="gallery" />
+			<item component="ComponentInfo{com.motorola.MotGallery2/com.android.gallery3d.app.Gallery}" drawable="gallery" />
+			<item component="ComponentInfo{com.sonyericsson.album/com.sonyericsson.album.MainActivity}" drawable="gallery" />
+			<item component="ComponentInfo{com.sonyericsson.gallery/com.sonyericsson.gallery.Gallery}" drawable="gallery" />
+			<item component="ComponentInfo{com.sec.android.gallery3d/com.sec.android.gallery3d.app.Gallery}" drawable="gallery" />
+			<item component="ComponentInfo{com.moblynx.galleryics/com.moblynx.galleryics.app.Gallery}" drawable="gallery" />
+			<item component="ComponentInfo{com.google.android.gallery3d/com.android.gallery3d.app.GalleryActivity}" drawable="gallery" />
+		<!--video player-->
+			<item component="ComponentInfo{com.sec.android.app.videoplayer/com.sec.android.app.videoplayer.activity.MainTab}" drawable="video_player" />
+		<!--music player-->
+			<item component="ComponentInfo{com.android.music/com.android.music.MusicBrowserActivity}" drawable="music" />
+			<item component="ComponentInfo{com.android.hpl.music/com.android.hpl.music.MusicBrowserActivity}" drawable="music" />
+			<item component="ComponentInfo{com.android.music/com.android.music.MusicBrowserActivity}" drawable="music" />
+			<item component="ComponentInfo{com.android.music/com.android.music.list.activity.MpMainTabActivity}" drawable="music" />
+			<item component="ComponentInfo{com.android.music/com.android.music.ArtistAlbumBrowserActivity}" drawable="music" />
+			<item component="ComponentInfo{com.htc.music/com.htc.music.HtcMusic}" drawable="music" />
+			<item component="ComponentInfo{com.htc.music/com.htc.music.browserlayer.MusicBrowserTabActivity}" drawable="music" />
+			<item component="ComponentInfo{com.motorola.blur.music/com.motorola.blur.music.DashboardActivity}" drawable="music" />
+			<item component="ComponentInfo{com.motorola.motmusic/com.motorola.motmusic.DashboardActivity}" drawable="music" />
+			<item component="ComponentInfo{com.pantech.app.music.verizon/com.pantech.app.music.verizon.library.MusicLibraryList}" drawable="music" />
+			<item component="ComponentInfo{com.sec.android.app.music/com.sec.android.app.music.list.activity.MpMainTabActivity}" drawable="music" />
+			<item component="ComponentInfo{com.sec.android.app.music/com.sec.android.app.music.MusicBrowserTabActivity}" drawable="music" />
+			<item component="ComponentInfo{com.sec.android.app.music/com.sec.android.app.music.MusicActionTabActivity}" drawable="music" />
+			<item component="ComponentInfo{com.hisense.music/com.hisense.music.MusicBrowserActivity}" drawable="music" />
+		<!--radio-->
+			<item component="ComponentInfo{com.android.fm/com.android.fm.radio.FMRadio}" drawable="radio" />
+			<item component="ComponentInfo{com.htc.fm/com.htc.fm.FMRadio}" drawable="radio" />
+			<item component="ComponentInfo{com.htc.fm/com.htc.fm.ap.activity.FMRadioMain}" drawable="radio" />
+			<item component="ComponentInfo{com.lge.fmradio/com.lge.fmradio.FmRadio}" drawable="radio" />
+			<item component="ComponentInfo{com.miui.fmradio/com.miui.fmradio.FMRadioMain}" drawable="radio" />
+			<item component="ComponentInfo{com.motorola.fmradio/com.motorola.fmradio.FMRadioMain}" drawable="radio" />
+			<item component="ComponentInfo{com.motorola.motofmradio/com.motorola.motofmradio.FMPlayer}" drawable="radio" />
+			<item component="ComponentInfo{com.samsung.app.fmradio/com.samsung.app.fmradio.FmRadioPlaybackActivity}" drawable="radio" />
+			<item component="ComponentInfo{com.sec.android.app.fm/com.sec.android.app.fm.MainActivity}" drawable="radio" />
+			<item component="ComponentInfo{com.sonyericsson.fmradio/com.sonyericsson.fmradio.FMRadioActivity}" drawable="radio" />
+			<item component="ComponentInfo{com.sonyericsson.fmradio/com.sonyericsson.fmradio.ui.FmRadioActivity}" drawable="radio" />
+			<item component="ComponentInfo{com.quicinc.fmradio/com.quicinc.fmradio.FMRadio}" drawable="radio" />
+		<!--memo-->
+			<item component="ComponentInfo{com.sec.android.widgetapp.diotek.diotek.smemo/com.sec.android.widgetapp.q1_penmemo.MemoListActivity}" drawable="memo" />
+			<item component="ComponentInfo{com.android.widgetapp.diotek.smemo/com.sec.android.widgetapp.q1_penmemo.MemoListActivity}" drawable="memo" />
+			<item component="ComponentInfo{com.sec.android.app.memo/com.sec.android.app.memo.Memo}" drawable="memo" />
+			<item component="ComponentInfo{com.sec.android.app.memo/com.sec.android.app.memo.MemoMainActivity}" drawable="memo" />
+			<item component="ComponentInfo{com.socialnmobile.dictapps.notepad.color.note/com.socialnmobile.colornote.activity.NoteList}" drawable="com_socialnmobile_colornote_activity_main" />
+			<item component="ComponentInfo{org.openintents.notepad/org.openintents.notepad.noteslist.NotesList}" drawable="memo" />
+			<item component="ComponentInfo{com.sonyericsson.notes/com.sonyericsson.notes.Notes}" drawable="memo" />
+			<item component="ComponentInfo{mobisle.mobisleNotesADC/mobisle.mobisleNotesADC.TodoMain}" drawable="memo" />
+			<item component="ComponentInfo{com.mobisleapps.notespro/com.mobisleapps.notespro.TodoMain}" drawable="memo" />
+			<item component="ComponentInfo{com.lge.memo/com.lge.memo.MemoMain}" drawable="memo" />
+			<item component="ComponentInfo{com.miui.notes/com.miui.notes.ui.NotesListActivity}" drawable="memo" />
+			<item component="ComponentInfo{com.socialnmobile.dictapps.notepad.color.note/com.socialnmobile.colornote.activity.Main}" drawable="memo" />
+			<item component="ComponentInfo{com.workpail.inkpad.notepad.notes/com.workpail.inkpad.notepad.notes.NotesList}" drawable="memo" />
+			<item component="ComponentInfo{com.flufflydelusions.app.extensive_notes_donate/com.flufflydelusions.app.extensive_notes_donate.Notes}" drawable="memo" />
+			<item component="ComponentInfo{com.flufflydelusions.app.extensive_notes/com.flufflydelusions.app.extensive_notes.Notes}" drawable="memo" />
+			<item component="ComponentInfo{org.mightyfrog.android.simplenotepad/org.mightyfrog.android.simplenotepad.SimpleNotepad}" drawable="memo" />
+			<item component="ComponentInfo{com.flufflydelusions.app.enotesclassiclite/com.flufflydelusions.app.enotesclassiclite.Notepadv3}" drawable="memo" />
+			<item component="ComponentInfo{com.flufflydelusions.app.enotesclassic/com.flufflydelusions.app.enotesclassic.Notepadv3}" drawable="memo" />
+		<!--settings-->
+			<item component="ComponentInfo{com.android.development/com.android.development.Development}" drawable="com_android_settings_settings" />
+			<item component="ComponentInfo{com.android.settings/com.android.settings.Settings}" drawable="settings" />
+			<item component="ComponentInfo{com.android.settings/com.android.settings.framework.activity.HtcSettings}" drawable="settings" />
+			<item component="ComponentInfo{com.android.settings/com.android.settings.MiuiSettings}" drawable="settings" />
+		<!--recorder-->
+			<item component="ComponentInfo{com.sec.android.app.voicerecorder/com.sec.android.app.voicerecorder.VoiceRecorderMainActivity}" drawable="voice_recorder" />
+			<item component="ComponentInfo{com.android.soundrecorder/com.android.soundrecorder.AsusRecorder}" drawable="voice_recorder" />
+			<item component="ComponentInfo{com.android.soundrecorder/com.android.soundrecorder.RecorderActivity}" drawable="voice_recorder" />
+			<item component="ComponentInfo{com.android.soundrecorder/com.android.soundrecorder.SoundRecorderLauncher}" drawable="voice_recorder" />
+			<item component="ComponentInfo{com.android.soundrecorder/com.android.soundrecorder.SoundRecorderTab}" drawable="voice_recorder" />
+			<item component="ComponentInfo{com.android.soundrecorder/com.android.soundrecorder.SoundRecorder}" drawable="voice_recorder" />
+			<item component="ComponentInfo{com.android.soundrecorder/com.android.soundrecorder.Sound}" drawable="voice_recorder" />
+			<item component="ComponentInfo{com.andrwq.recorder/com.andrwq.recorder.RecorderActivity}" drawable="voice_recorder"/>
+			<item component="ComponentInfo{com.appstar.audiorecorder/com.appstar.audiorecorder.RecorderMainActivity}" drawable="voice_recorder" />
+			<item component="ComponentInfo{com.asus.soundrecorder/com.asus.soundrecorder.AsusRecorder}" drawable="voice_recorder" />
+			<item component="ComponentInfo{com.htc.soundrecorder/com.htc.soundrecorder.SoundRecorderBG}" drawable="voice_recorder" />
+			<item component="ComponentInfo{com.lenovo.recorder/com.lenovo.recorder.SoundRecorder}" drawable="voice_recorder" />
+			<item component="ComponentInfo{com.lenovo.soundrecorder/com.lenovo.soundrecorder.SoundRecorder}" drawable="voice_recorder" />
+			<item component="ComponentInfo{com.lge.voicerecorder/com.lge.voicerecorder.LaunchVoiceRecorder}" drawable="voice_recorder" />
+			<item component="ComponentInfo{com.lge.voicerecorder/com.lge.voicerecorder.VoiceRecorder}" drawable="voice_recorder" />
+			<item component="ComponentInfo{com.rimidalv.dictaphone/com.rimidalv.dictaphone.MainActivity}" drawable="voice_recorder" />
+			<item component="ComponentInfo{com.sec.android.app.voicenote/com.sec.android.app.voicenote.main.VNMainActivity}" drawable="voice_recorder" />
+			<item component="ComponentInfo{com.sec.android.app.voicerecorder/com.sec.android.app.voicerecorder.VoiceRecorderMainActivity}" drawable="voice_recorder" />
+			<item component="ComponentInfo{com.sec.android.app.voicerecorder/com.sec.android.app.voicerecorder.VoiceRecorder}" drawable="voice_recorder" />
+			<item component="ComponentInfo{com.sonymobile.androidapp.audiorecorder/com.sonymobile.androidapp.audiorecorder.activity.MainActivity}" drawable="voice_recorder" />
+			<item component="ComponentInfo{net.micode.soundrecorder/net.micode.soundrecorder.SoundRecorder}" drawable="voice_recorder" />
+			<item component="ComponentInfo{oppo.multimedia.soundrecorder/oppo.multimedia.soundrecorder.RecorderActivity}" drawable="voice_recorder" />
+	<!--google apps-->
+		<!--chrome-->
+			<item component="ComponentInfo{com.chrome.dev/com.google.android.apps.chrome.Main}" drawable="chrome" />
+			<item component="ComponentInfo{com.android.chrome/com.google.android.apps.chrome.Main}" drawable="chrome" />
+			<item component="ComponentInfo{com.chrome.beta/com.google.android.apps.chrome.Main}" drawable="chrome" />
+		<!--maps-->
+			<item component="ComponentInfo{com.google.earth/com.google.earth.EarthActivity}" drawable="google_earth"/>
+			<item component="ComponentInfo{com.google.android.apps.maps/com.google.android.maps.MapsActivity}" drawable="google_maps"/>
+			<item component="ComponentInfo{com.google.android.apps.maps/com.google.android.maps.PlacesActivity}" drawable="google_maps"/>
+			<item component="ComponentInfo{com.google.android.apps.maps/com.google.android.maps.driveabout.app.DestinationActivity}" drawable="google_maps"/>
+		<!--photos-->
+			<item component="ComponentInfo{com.google.android.apps.plus/com.google.android.apps.plus.phone.ConversationListActivity}" drawable="google_photos"/>
+			<item component="ComponentInfo{com.google.android.apps.plus/com.google.android.apps.circles.realtimechat.ConversationListActivity}" drawable="google_photos"/>
+			<item component="ComponentInfo{com.google.android.apps.photos/com.google.android.apps.photos.home.HomeActivity}" drawable="google_photos"/>
+		<!--others-->
+			<item component="ComponentInfo{com.google.android.GoogleCamera/com.android.camera.CameraLauncher}" drawable="google_camera"/>
+			<item component="ComponentInfo{com.google.android.calendar/com.android.calendar.AllInOneActivity}" drawable="google_calendar" />
+			<item component="ComponentInfo{com.google.android.gms/com.google.android.gms.app.settings.GoogleSettingsActivity}" drawable="google_settings" />
+			<item component="ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.googlequicksearchbox.VoiceSearchActivity}" drawable="google_voice_search" />
+			<item component="ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.googlequicksearchbox.SearchActivity}" drawable="google_app" />
+			<item component="ComponentInfo{com.google.android.apps.docs/com.google.android.apps.docs.app.NewMainProxyActivity}" drawable="google_drive" />
+			<item component="ComponentInfo{com.google.android.apps.docs.editors.docs/com.google.android.apps.docs.app.NewMainProxyActivity}" drawable="google_docs" />
+			<item component="ComponentInfo{com.google.android.gm/com.google.android.gm.ConversationListActivityGmail}" drawable="gmail" />
+			<item component="ComponentInfo{com.google.android.talk/com.google.android.talk.SigningInActivity}" drawable="hangouts" />
+			<item component="ComponentInfo{com.google.android.apps.translate/com.google.android.apps.translate.TranslateActivity}" drawable="google_translate" />
+			<item component="ComponentInfo{com.google.android.street/com.google.android.apps.dragonfly.activities.main.MainActivity}" drawable="google_maps" />
+			<item component="ComponentInfo{com.google.android.apps.docs.editors.sheets/com.google.android.apps.docs.app.NewMainProxyActivity}" drawable="google_sheets"/>
+			<item component="ComponentInfo{com.google.android.apps.inbox/com.google.android.apps.bigtop.activities.InitActivity}" drawable="google_inbox"/>
+			<item component="ComponentInfo{com.google.android.apps.plus/com.google.android.apps.plus.phone.HomeActivity}" drawable="google_plus"/>
+			<item component="ComponentInfo{com.google.android.inputmethod.latin/com.android.inputmethod.latin.setup.SetupActivity}" drawable="google_keyboad" />
+			<item component="ComponentInfo{com.google.android.keep/com.google.android.keep.activities.BrowseActivity}" drawable="google_keep" />
+		<!--play *-->
+			<item component="ComponentInfo{com.google.android.apps.books/com.google.android.apps.books.app.BooksActivity}" drawable="play_books" />
+			<item component="ComponentInfo{com.google.android.apps.books/com.google.android.apps.books.app.HomeActivity}" drawable="play_books"/>
+			<item component="ComponentInfo{com.google.android.play.games/com.google.android.gms.games.ui.destination.main.MainActivity}" drawable="play_games" />
+			<item component="ComponentInfo{com.google.android.videos/com.google.android.youtube.videos.EntryPoint}" drawable="play_movies" />
+			<item component="ComponentInfo{com.google.android.music/com.android.music.activitymanagement.TopLevelActivity}" drawable="play_music" />
+			<item component="ComponentInfo{com.google.android.apps.magazines/com.google.apps.dot.android.app.activity.CurrentsStartActivity}" drawable="play_newsstand" />
+			<item component="ComponentInfo{com.google.android.apps.magazines/com.google.apps.dots.android.app.activity.CurrentsStartActivity}" drawable="play_newsstand"/>
+			<item component="ComponentInfo{com.android.vending/com.android.vending.AssetBrowserActivity}" drawable="play_store" />
+	<!--utils-->
+		<!--file managers-->
+			<item component="ComponentInfo{com.estrongs.android.pop/com.estrongs.android.pop.view.FileExplorerActivity}" drawable="es_file_explorer"/>
+			<item component="ComponentInfo{com.estrongs.android.pop.tmp/com.estrongs.android.pop.app.FileExplorerActivity}" drawable="es_file_explorer"/>
+			<item component="ComponentInfo{com.estrongs.android.pop/com.estrongs.android.pop.resmanager.view.FileExplorerActivity}" drawable="es_file_explorer"/>
+			<item component="ComponentInfo{com.tomitools.filemanager/com.tomitools.filemanager.ui.activities.LaunchActivity}" drawable="Tomi_file_manager"/>
+		<!--media players-->
+			<item component="ComponentInfo{org.videolan.vlc/org.videolan.vlc.StartActivity}" drawable="vlc" />
+		<!--text editors-->
+			<item component="ComponentInfo{com.rhmsoft.edit/com.rhmsoft.edit.activity.MainActivity}" drawable="quick_edit" />
+		<!--storage-->
+			<item component="ComponentInfo{com.microsoft.skydrive/com.microsoft.skydrive.MainActivity}" drawable="skydrive"/>
+			<item component="ComponentInfo{com.dropbox.android/com.dropbox.android.activity.DropboxBrowser}" drawable="dropbox"/>
+		<!--browsers-->
+			<item component="ComponentInfo{org.mozilla.firefox/org.mozilla.firefox.App}" drawable="firefox"/>
+			<item component="ComponentInfo{org.mozilla.firefox_beta/org.mozilla.firefox_beta.App}" drawable="firefox" />
+		<!--keyboards-->
+			<item component="ComponentInfo{com.touchtype.swiftkey/com.touchtype.LauncherActivity}" drawable="keyboard"/>
+			<item component="ComponentInfo{com.touchtype.swiftkey/com.touchtype.swiftkey.Applanet_2}" drawable="keyboard"/>
+			<item component="ComponentInfo{com.touchtype.swiftkey/com.touchtype.swiftkey.main}" drawable="keyboard"/>
+			<item component="ComponentInfo{com.touchtype.swiftkey.trial/com.touchtype.install.Welcome}" drawable="keyboard"/>
+			<item component="ComponentInfo{installer.com.touchtype.swiftkey/installer.com.touchtype.swiftkey.MainActivity}" drawable="keyboard"/>
+		<!--kernel updater-->
+			<item component="ComponentInfo{com.franco.kernel/com.franco.kernel.MainActivity}" drawable="kernel_updater"/>
+			<item component="ComponentInfo{com.franco.kernel/com.license.check.LicenseCheckz}" drawable="kernel_updater"/>
+			<item component="ComponentInfo{com.franco.kernel/com.marclandis.francokernel.Main}" drawable="kernel_updater"/>
+			<item component="ComponentInfo{com.franco.kernel/com.marclandis.francokernel.LicenseCheck}" drawable="kernel_updater"/>
+			<item component="ComponentInfo{com.franco.kernel.free/com.francokernel.Main}" drawable="kernel_updater"/>
+			<item component="ComponentInfo{com.franco.kernel.free/com.francokernel.MainActivity}" drawable="kernel_updater"/>
+			<item component="ComponentInfo{com.franco.kernel.free/com.franco.kernel.free.Main}" drawable="kernel_updater"/>
+			<item component="ComponentInfo{com.franco.kernel/franco.KernelActivity}" drawable="kernel_updater"/>
+			<item component="ComponentInfo{com.franco.kernel.note/com.franco.kernel.note.Main}" drawable="kernel_updater"/>
+		<!--other-->
+			<item component="ComponentInfo{imoblife.toolbox.full/imoblife.toolbox.full.ASplash}" drawable="all_in_one_toolbox"/>
+			<item component="ComponentInfo{com.cpuid.cpu_z/com.cpuid.cpu_z.MainActivity}" drawable="cpu_z"/>
+			<item component="ComponentInfo{com.android.terminal/com.android.terminal.TerminalActivity}" drawable="android_terminal"/>
+			<item component="ComponentInfo{com.bluepremium.privilege.terminal/com.bluepremium.privilege.terminal.Term}" drawable="android_terminal"/>
+			<item component="ComponentInfo{com.cleanmaster.security/ks.cm.antivirus.main.SplashActivity}" drawable="clean_master_security"/>
+			<item component="ComponentInfo{com.cleanmaster.mguard/com.keniu.security.main.MainActivity}" drawable="clean_master"/>
+			<item component="ComponentInfo{org.zwanoo.android.speedtest/com.ookla.speedtest.softfacade.MainActivity}" drawable="speedtest"/>
+			<item component="ComponentInfo{com.skype.raider/com.skype.raider.Main}" drawable="skype"/>
+			<item component="ComponentInfo{com.skype.raider/com.skype.raider.ui.SplashScreenActivity}" drawable="skype"/>
+			<item component="ComponentInfo{com.lastpass.lpandroid/com.lastpass.lpandroid.WebBrowserActivity}" drawable="lastpass"/>
+			<item component="ComponentInfo{fm.last.android/fm.last.android.LastFm}" drawable="lastpass"/>
+			<item component="ComponentInfo{com.evernote.skitch/com.evernote.skitch.app.SkitchHomeBaseActivity}" drawable="evernote"/>
+			<item component="ComponentInfo{com.ijinshan.kbatterydoctor_en/com.ijinshan.kbatterydoctor.SplashActivity}" drawable="k_battery_doctor"/>
+			<item component="ComponentInfo{com.iudesk.android.photo.editor/app.activity.MainActivity}" drawable="photo_editor"/>
+			<item component="ComponentInfo{com.dynamixsoftware.printershare/com.dynamixsoftware.printershare.ActivityMain}" drawable="printer_share"/>
+		<!--themes-->
+			<item component="ComponentInfo{io.github.mrrar.win98theme/io.github.mrrar.win98theme.MainActivity}" drawable="icon"/>
+		<!--email apps-->
+			<item component="ComponentInfo{com.cloudmagic.mail/com.cloudmagic.android.HomeScreenActivity}" drawable="magic_mail"/>
+		<!--ms apps-->
+			<item component="ComponentInfo{com.microsoft.office.outlook/com.microsoft.office.outlook.MainActivity}" drawable="ms_outlook"/>
+			<item component="ComponentInfo{com.microsoft.office.excel/com.microsoft.office.apphost.LaunchActivity}" drawable="ms_excel"/>
+			<item component="ComponentInfo{}" drawable="ms_word"/>
+			<item component="ComponentInfo{com.microsoft.office.powerpoint/com.microsoft.office.apphost.LaunchActivity}" drawable="ms_power_point"/>
+	<!--games-->
+		<item component="ComponentInfo{com.umonistudio.tile/com.umonistudio.tile.tile}" drawable="piano_tiles"/>
+		<item component="ComponentInfo{com.sabzira.PianoTiles/com.unity3d.player.UnityPlayerActivity}" drawable="piano_tiles" />
+</resources>

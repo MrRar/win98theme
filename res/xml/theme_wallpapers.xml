@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item drawable="@drawable/background" />
+    <item drawable="@drawable/bronze" />
+    <item drawable="@drawable/bubbles" />
+    <item drawable="@drawable/chess" />
+    <item drawable="@drawable/cup" />
+    <item drawable="@drawable/dog" />
+    <item drawable="@drawable/fish" />
+    <item drawable="@drawable/leaf" />
+    <item drawable="@drawable/sand" />
+    <item drawable="@drawable/zaptec" />
+</resources>
