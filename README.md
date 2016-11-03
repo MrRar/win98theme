@@ -1,6 +1,6 @@
 # Win98 theme
 ![Win98 Theme](https://raw.githubusercontent.com/MrRar/win98theme/master/Screenshot.png "Win98 Theme!")
-[download apk](https://github.com/mrrar/win98theme/master.zip)
+[download apk](https://github.com/MrRar/win98theme/blob/master/bin/win98theme.apk?raw=true)
 ## contributing guide lines
 ### icons
 #### size
