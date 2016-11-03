@@ -1,5 +1,5 @@
 # Win98 theme
-![Win98 Theme](https://github.com/mrrar/win98theme/screenshot.png "Win98 Theme!")
+![Win98 Theme](https://raw.githubusercontent.com/MrRar/win98theme/master/Screenshot.png "Win98 Theme!")
 [download apk](https://github.com/mrrar/win98theme/master.zip)
 ## contributing guide lines
 ### icons
